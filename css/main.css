@@ -1,0 +1,81 @@
+@import url(./reset.css);
+
+
+
+/* Theme */
+:root {
+    --background-theme: #2d3436;
+    --background-list: #00b894;
+    --background-list-even: #81ecec;
+    --color-text: #fff;
+    --background-level-two: #222;
+    --secchangebox: #99B2DD;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+.gallery-primary{
+    background-color: var(--background-level-two);
+    max-width: 100rem;
+    margin: 0 auto;
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+    
+}
+
+/* Collection styles */
+#collection {
+    border-radius: 8px;
+    margin: 10px;
+    background-color: var(--color-text);
+    box-shadow: 0 4px 8px var(--background-level-two);
+
+}
+
+#collection img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#collection li {
+    margin-top: 10px;
+    
+}
+
+#collection a {
+    padding: 8px 16px;
+    background-color: var(--secchangebox);
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: var(--background-level-two);
+    color: var(--color-text);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
